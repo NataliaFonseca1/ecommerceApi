@@ -1,8 +1,6 @@
 package dev.java.ecommerce.apiQuickShop.Entity;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import dev.java.ecommerce.apiQuickShop.Service.ProductService;
-import jdk.jshell.Snippet;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

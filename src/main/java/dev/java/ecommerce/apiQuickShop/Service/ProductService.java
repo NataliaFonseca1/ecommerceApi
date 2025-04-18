@@ -28,9 +28,8 @@ public class ProductService {
     return platziStoreClient.getAllProducts();
 }
 @Cacheable(value = "products", key ="#productId")
-public PlatziProductResponse getProductById(Long productId){
+public PlatziProductResponse getProduct(Long productId){
     return platziStoreClient.getProductById(productId);
 }
-
 
 }
